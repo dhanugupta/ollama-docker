@@ -19,8 +19,9 @@ Follow these steps to get the services up and running:
 ``` docker-compose up -d ```
 - [x] Login via http://localhost:3008
 - [x] Register a new user and you are all set to start experiment with Ollama
-- [x] Using docker exec to pull ``llama3.2:1b`` model [for more model: https://ollama.com/search]
-``` docker exec -it ollama ollama pull llama3.2:1b ```
+~~- [x] Using docker exec to pull ``llama3.2:1b`` model [for more model: https://ollama.com/search]
+``` docker exec -it ollama ollama pull llama3.2:1b ```~~
+- [x] added entrypoint to fetch model async
 
 - [x] Stop the services
 ```docker-compose down```
